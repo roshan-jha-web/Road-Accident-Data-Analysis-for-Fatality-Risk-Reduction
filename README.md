@@ -20,7 +20,7 @@ The analysis is performed using SQL, simulating a real-world analytics use case 
 
 🛠 Tools & Technologies
 
-- SQL – Data querying, joins, aggregations, Window functions, CTEs.
+- SQL – Data querying, joins, aggregations, Window functions, Subquery, CTEs.
 
 - CSV Files – Accident and vehicle datasets.
 
@@ -28,15 +28,14 @@ The analysis is performed using SQL, simulating a real-world analytics use case 
 
 📊 Key Analysis Performed
 
-- Comparison of fatal and non-fatal accidents.
-
-- Accident severity analysis and its impact on fatalities.
-
-- Identification of high-risk vehicle categories.
-
-- Pattern analysis using joins and CTEs.
-
-- Aggregated insights to highlight fatality risk drivers.
+Question 1: How many accidents have occurred in urban areas versus rural areas?
+Question 2: Which day of the week has the highest number of accidents?
+Question 3: What is the average age of vehicles involved in accidents based on their type?
+Question 4: Can we identify any trends in accidents based on the age of the vehicles involved?
+Question 5: Are there any specific weather conditions that contribute to severe accidents?
+Question 6: Do accidents often involve impacts on the left-hand side of vehicles?
+Question 7: Are there any relationships between journey purposes and the severity of accidents?
+Question 8: Calculate the average age of vehicles involved in accidents, considering daylight and point of impact
 
 🔍 Key Insights
 
